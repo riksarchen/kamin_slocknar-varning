@@ -8,11 +8,20 @@ Det här behöver du:
 
 Installation (domoticz):
 
-Börja med att skapa mapp:
+
+Skapa användarvariabler: 
+
+KaminTrigger , Integer (Heltal)
+
+KaminLastTemp, Float (flyttal)
+
+
+Skapa mapp:
 
 sudo mkdir -p /usr/local/lib/lua/5.2/
 
 kopiera in bakseeda.lua till denna mapp. 
+
 
 Öppna domoticz -> Händelsesystem/events
 
