@@ -21,7 +21,7 @@ if (devicechanged[tempKamin]) then
         if (KaminTrigger == 1) then
             commandArray['SendNotification']='Kaminen håller på att slockna!#Dags att lägga in mer ved.#0'
             b.setVar(usrKaminTrigger, 0, 0)
-            print("Kaminens temperatur har sjunkit med "..vKaminLastTemp - kaminTemp.."c. Dags att lägga i mer ved.")
+            print("Kaminens temperatur har sjunkit med "..vKaminLastTemp - kaminTemp.."c, skickar notis.")
         end
         b.setVar(usrKaminLastTemp, kaminTemp , 1)
     end
